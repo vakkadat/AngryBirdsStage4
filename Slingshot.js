@@ -30,6 +30,8 @@ class SlingShot{
             stroke(rgb(48,22,8));
             line(pointA.x-20, pointA.y, pointB.x-10, pointB.y);
             line(pointA.x-20, pointA.y, pointB.x-30, pointB.y-3);
+            Image(this.sling3, pointA.x, pointB.x-30, 15, 30);
+            pop();
         }
     }
     
